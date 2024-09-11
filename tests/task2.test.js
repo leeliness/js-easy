@@ -2,7 +2,7 @@ const reverseWithoutNumbers = require('../tasks/task2');
 
 test('Reverses string and removes numbers', () => {
   expect(reverseWithoutNumbers('abc123def')).toBe('fedcba');
-  expect(reverseWithoutNumbers('h3llo5world')).toBe('dlrowolleh');
+  expect(reverseWithoutNumbers('hello5world')).toBe('dlrowolleh');
   expect(reverseWithoutNumbers('123')).toBe('');
   expect(reverseWithoutNumbers('')).toBe('');
 });

@@ -3,6 +3,8 @@
 
 function replaceVowels(str) {
   // Ваш код тут
+  const vowels = /[aeiou]/gi;
+  return str.replace(vowels, '*');
 }
 
 console.log(replaceVowels("hello world")); // Виведе: "h*ll* w*rld"
