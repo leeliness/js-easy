@@ -2,7 +2,7 @@
 // повертає їхню суму. Використовуйте цикл для обчислення суми.
 
 function sumArray(numbers) {
-  // Ваш код тутї
+  // Ваш код тут
   let sum = 0;
   for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
